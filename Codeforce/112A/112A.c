@@ -1,3 +1,10 @@
+/*
+Problem - 112A
+Nasemul Islam
+CSE department
+IST,Dhanmondi
+*/
+
 #include<stdio.h>
 #include<string.h>
 
@@ -18,10 +25,7 @@ int main()
             str2[i]=str2[i]+32;
         }
         
-        result= str1[i]-str2[i];
-        if(result!=0){
-            break;
-        }
+        result= result + (str1[i]-str2[i]);
     }
     
     if(result==0){
